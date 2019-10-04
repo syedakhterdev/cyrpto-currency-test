@@ -1,0 +1,454 @@
+*, 
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+ul,ol {
+    padding: 0;
+    margin: 0;
+}
+a:hover {
+    text-decoration: none;
+}
+/*--- Body CSS End ---*/
+
+/*--- Header CSS Start ---*/
+header {
+    padding: 25px 0;
+    background-color: #fff;
+}
+header .container-fluid {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.logo a {
+    font-size: 30px;
+    color: #606c84;
+    font-weight: 500;
+}
+
+.header_select,
+.header_dropdown {
+    max-width: 280px;
+    margin-left: auto;
+}
+header .form-group {
+    margin-bottom: 0;
+}
+header .header_select .form-control {
+    border: none;
+    border-bottom: 1px solid #dfdfdf;
+    border-radius: 0;
+    width: 60px;
+    padding: 0;
+    font-size: 15px;
+    color: #212121;
+    font-weight: 500;
+    -webkit-appearance: none;
+    /* background: url('../images/caret.png') 90% center no-repeat; */
+}
+header .header_select .form-control * {
+    color: #222;
+    -webkit-box-shadow: 1px 0px 3px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 1px 0px 3px 0px rgba(0,0,0,0.25);
+    box-shadow: 1px 0px 3px 0px rgba(0,0,0,0.25);
+    padding: 10px;
+}
+header .form-control:focus,
+.header_dropdown .btn-light:focus {
+    outline: none;
+    box-shadow: none;
+}
+.header_dropdown .dropdown-toggle {
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #dfdfdf;
+    padding: 0;
+    font-size: 15px;
+    color: #212121;
+    font-weight: 500;
+    padding: 3px 2px;
+    width: 60px;
+    box-shadow: none;
+}
+.header_dropdown .dropdown-toggle::after {
+    color: #dfdfdf;
+    border-top: .4em solid;
+    border-right: .4em solid transparent;
+    border-bottom: 0;
+    border-left: .4em solid transparent;
+}
+.header_dropdown .dropdown-menu {
+    width: 100%;
+    max-width: 120px;
+    min-width: 120px;
+    border: none;
+    border-radius: 0;
+    margin-left: 50px;
+    -webkit-box-shadow: 0px 2px 16px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 2px 16px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 2px 16px 0px rgba(0,0,0,0.3);
+}
+.header_dropdown  .dropdown-item {
+    font-size: 15px;
+    color: #212121;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+.header_dropdown  .dropdown-item:hover {
+    color: #ff467f;
+    background-color: transparent;
+}
+.show>.btn-light.dropdown-toggle,
+.show>.btn-light.dropdown-toggle:focus {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+
+
+
+/*--- Detail Header CSS Start ---*/
+.currency_deatail {
+    display: flex;
+    align-items: center;
+    max-width: 350px;
+}
+.back_btn {
+    width: 30px;
+    height: 30px;
+    background-color: #e7f2fd;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 26px;
+    color: #66a7f2;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 35px;
+}
+.currency_img {
+    margin-right: 13px;
+}
+.currencyName_detail  {
+    margin-right: 30px;
+}
+.currencyName_detail h4 {
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-bottom: 0;
+    color: #464a57;
+    line-height: 1.2;
+}
+.currencyName_detail span {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #abafbe;
+    font-weight: 600;
+    line-height: 1.2;
+    display: block;
+}
+.price_dollars {
+    font-size: 16px;
+    color: #464a57;
+    line-height: 1.2;
+    display: block;
+    font-weight: 500;
+}
+.price_dollars b {
+    color: #abafbe;
+    padding-right: 7px;
+}
+/*--- Detail Header CSS End ---*/
+
+/*--- Header CSS End ---*/
+
+
+/*--- Content CSS Start ---*/
+
+/*--- HomePage CSS Start ---*/
+.table_section .thead{
+    background-color: #ebf0f4;
+    border-top: 1px solid #d5e1ea;
+    border-bottom: none;
+}
+.table thead th {
+    border-bottom: 1px solid #d5e1ea;
+    font-size: 13px;
+    color: #abafbe;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 250px;
+}
+.table tbody td  {
+    width: 250px;
+    font-size: 14px;
+    color: #464a57;
+    line-height: 1.3;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    text-transform: capitalize;
+    border-bottom: none;
+}
+.table tbody tr {
+    border-bottom: 1px solid #eef0f5;
+    position: relative;
+}
+.row_link {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.table tbody tr:last-child {
+    border-bottom: none;
+}
+.table tbody h5 {
+    font-size: 14px;
+    color: #464a57;
+    margin-bottom: 0;
+}
+.currency_icon {
+    margin-right: 10px;
+}
+.table tbody td span {
+    font-weight: 600;
+    color: #abafbe;
+    padding-right: 8px;
+}
+.td_col,
+.td_currency,
+.td_price {
+    display: flex;
+    align-items: center;
+}
+.td_hours {
+    width: 90px;
+    justify-content: flex-end;
+}
+.currency_name {
+    display: flex;
+    align-items: center;
+}
+.td_currency .counter {
+    padding-right: 25px;
+    color: #abafbe;
+}
+.table .hours_change {
+    color: #1ac17a;    
+}
+/*--- HomePage CSS End ---*/
+
+
+
+
+/*--- DetailPage CSS Start ---*/
+
+
+
+.deatail_wrap {
+    padding: 80px 100px;
+    background-image: linear-gradient(to right, #12243e, #142743, #172b47, #192e4c, #1c3251);
+    height: 100vh;
+}
+.deatail_wrap h5 {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #5e737a;
+    font-weight: 700;
+    margin: 0 0 7px 0;
+}
+.item_rank h5 {
+    margin: 0 12px 0 0;
+}
+.rank_counter {
+    width: 45px;
+    height: 45px;
+    background-color: #1e385a;
+    border-radius: 50%;
+    line-height: 45px;
+    color: #66a7e8;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+}
+.price_detail {
+    margin-bottom: 35px;
+}
+.price_detail:last-child {
+    margin-bottom: 0;
+}
+.price_number {
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.price_number b {
+    color: #5e738f;
+    padding-right: 7px;
+}
+.price_number strong {
+    text-transform: uppercase;
+    color: #2dd47f;
+    padding-left: 1px;
+    font-size: 11px;
+}
+/*--- DetailPage CSS Start ---*/
+
+/*--- Content CSS End ---*/
+
+
+/*--- Responsive Start ---*/
+@media (max-width: 991px) {
+    .deatail_wrap {
+        padding: 50px 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    header .container-fluid {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .logo a {
+        font-size: 24px;
+    }
+    .header_dropdown .dropdown-menu {
+        margin-left: 10px;
+    }
+
+    .back_btn {
+        margin-right: 10px;
+        margin-left: -10px;
+    }
+    .currency_img img {
+        width: 30px;
+        height: 30px;
+        line-height: 28px;
+    }
+    .header_dropdown {
+        margin-left: 20px;
+    }
+
+    
+    .td_currency .counter {
+        padding-right: 12px;
+    }
+    .table thead th {
+        font-size: 11px;
+    }
+    .table tbody td {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .table tbody td,
+    .table tbody h5 {
+        font-size: 12px;
+    }
+    .table thead th:first-child,
+    .table thead th:last-child,
+    .table tbody td:first-child,
+    .table tbody td:last-child {
+        display: none;
+    }
+
+    .item_rank {
+        width: 85px;
+    }
+    .item_rank h5 {
+        margin-right: 5px;
+    }
+    .rank_counter {
+        width: 35px;
+        height: 35px;
+        line-height: 37px;
+    }
+    .price_number {
+        font-size: 14px;
+    }
+    .deatail_wrap h5 {
+        font-size: 11px;
+        margin-bottom: 5px;
+    }
+    .price_detail {
+        margin-bottom: 25px;
+    }
+
+}
+
+@media (max-width: 575px) {
+    .currency_deatail {
+        flex-wrap: wrap;
+    }
+    .price_dollars {
+        padding-left: 72px;
+        margin-top: 12px;
+    }
+    .table_outer {
+        width: 600px;
+        overflow: auto; 
+    }
+    .table_section .table {
+        /* border-collapse: collapse; */
+    }
+    .deatail_wrap {
+        padding: 50px 15px;
+    }
+    .item_rank {
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 0 50px;
+    }
+    .deatail_wrap h5 {
+        font-size: 13px;
+    }
+    .price_detail {
+        padding: 0 50px;
+    }
+    .price_detail:last-child {
+        margin-bottom: 25px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .header_dropdown .dropdown-menu {
+        margin-left: -5px;
+        transform: translate3d(0px, 30px, 0px) !important;
+    }
+    .back_btn {
+        width: 25px;
+        height: 25px;
+        line-height: 23px;
+        margin-right: 7px;
+    }
+    .back_btn img {
+        width: 55%;
+    }
+    .currency_img {
+        margin-right: 8px;
+        display: inline-block;
+        width: 25px;
+    }
+    .currency_img img {
+        width: 100%;
+        height: 100%;
+    }
+    .currencyName_detail h4,
+    .price_dollars {
+        font-size: 13px;
+    }
+    .currencyName_detail span {
+        font-size: 11px;
+    }
+    .currencyName_detail {
+        margin-right: 0;
+    }
+    .price_dollars {
+        padding-left: 29px;
+    }
+}
+/*--- Responsive End ---*/
